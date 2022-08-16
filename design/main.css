@@ -69,27 +69,27 @@ picture img {
 }
 
 .pattern {
-   transform: scale(1.8);
-   left: -250px;
+   transform: scale(2);
+   left: -290px;
    opacity: 0.6;
-   top: -30px;
+   top: -25px;
 }
 
 .illustration {
    left: -75px;
-   top: 65px;
+   top: 90px;
 }
 
 .box {
    position: absolute;
-   top: 185px;
-   left: -120px;
+   top: 210px;
+   left: -90px;
    width: 180px;
 }
 
 .info-container {
    width: 46%;
-   padding: 6rem 3rem 5rem 0;
+   padding: 8rem 3rem 5rem 3rem;
    transition: all 0.3s ease;
    cursor: pointer;
 }
@@ -176,6 +176,7 @@ h2:hover {
    .illustration-container {
       width: 100%;
       height: 130px;
+      overflow: visible;
    }
 
    .info-container {
@@ -188,11 +189,15 @@ h2:hover {
       text-align: center;
    }
 
+   h2:hover {
+      color: var(--color-primary);
+   }
+
    .pattern {
-      transform: scale(0.8);
-      left: 0;
-      opacity: 0.6;
-      top: -180px;
+      transform: scale(1.1);
+      left: 45px;
+      opacity: 0.8;
+      top: 5px;
    }
 
    .illustration {
@@ -202,9 +207,6 @@ h2:hover {
    }
 
    .box {
-      position: absolute;
-      top: -40px;
-      left: 30px;
-      width: 100px;
+      display: none;
    }
 }
