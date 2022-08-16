@@ -1,3 +1,12 @@
+https://frontendmentor-challenge-2-faq-acorde.netlify.app/
+
+
+![image](https://user-images.githubusercontent.com/72318958/184720728-fb175bbe-6f4e-4697-a70a-8eebefacbc58.png)
+
+
+
+
+
 Your users should be able to:
 
 -  View the optimal layout for the component depending on their device's screen size
