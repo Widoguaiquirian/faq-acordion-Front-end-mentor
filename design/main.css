@@ -107,15 +107,16 @@ h1 {
    color: var(--color-primary);
 }
 
-h3 {
+h2 {
    font-weight: normal;
    margin: 1.5rem 0;
+   font-size: 1.4rem;
    cursor: pointer;
    transition: all 0.3s ease;
    color: var(--color-primary);
 }
 
-h3:hover {
+h2:hover {
    color: var(--color-secondary);
 }
 
@@ -134,7 +135,7 @@ h3:hover {
    width: 90%;
 }
 
-.btn {
+.chevron {
    background: none;
    border: none;
    outline: none;
@@ -169,7 +170,7 @@ h3:hover {
    display: block;
 }
 
-.question-container.active h3 {
+.question-container.active h2 {
    font-weight: bold;
 }
 
