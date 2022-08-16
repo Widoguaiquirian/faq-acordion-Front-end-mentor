@@ -61,14 +61,15 @@ li {
    position: relative;
 }
 
-figure {
+picture {
    position: relative;
    width: 100%;
    height: 100%;
    overflow: hidden;
+   background-color: red;
 }
 
-figure img {
+picture img {
    position: absolute;
    left: 0;
    max-width: 100%;
